@@ -5,7 +5,8 @@ import { Add } from './add/add';
 
 const routes: Routes = [
   {path: '', component: DashboardComponent},
-  {path: 'add', component: Add}
+  {path: 'add', component: Add},
+  { path: 'edit/:id', component: Add }
 ];
 
 @NgModule({

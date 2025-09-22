@@ -49,4 +49,7 @@ export class DashboardComponent implements OnInit {
       }
     });
   }
+  editData(id: any): void {
+    this.router.navigate(['/crud/edit', id]);
+  }
 }
